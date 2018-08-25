@@ -15,7 +15,7 @@ class App extends Component {
             )
         } else {
             return (
-                <button onClick={() => this.ptops.changeAuth(true)}>
+                <button onClick={() => this.props.changeAuth(true)}>
                     Sign In
                 </button>
             )
